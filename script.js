@@ -25,7 +25,7 @@ function myfunc(){
 
     // determining if X won 
     if((b1=='X' || b1=='x') && (b2=='X' || b2=='x') && (b3=='X' || b3=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b4bt.disabled = true;
         b5bt.disabled = true;
         b6bt.disabled = true;
@@ -39,7 +39,7 @@ function myfunc(){
     }
     
     else if((b1=='X' || b1=='x') && (b4=='X' || b4=='x') && (b7=='X' || b7=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b2bt.disabled = true;
         b5bt.disabled = true;
         b6bt.disabled = true;
@@ -52,7 +52,7 @@ function myfunc(){
         b7bt.style.color = "red";
     }
     else if((b7=='X' || b7=='x') && (b8=='X' || b8=='x') && (b9=='X' || b9=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b2bt.disabled = true;
         b5bt.disabled = true;
         b6bt.disabled = true;
@@ -65,7 +65,7 @@ function myfunc(){
         b9bt.style.color = "red";
     }
     else if((b3=='X' || b3=='x') && (b6=='X' || b6=='x') && (b9=='X' || b9=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b2bt.disabled = true;
         b5bt.disabled = true;
         b7bt.disabled = true;
@@ -78,7 +78,7 @@ function myfunc(){
         b9bt.style.color = "red";
     }
     else if((b1=='X' || b1=='x') && (b5=='X' || b5=='x') && (b9=='X' || b9=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b2bt.disabled = true;
         b7bt.disabled = true;
         b6bt.disabled = true;
@@ -91,7 +91,7 @@ function myfunc(){
         b9bt.style.color = "red";
     }
     else if((b3=='X' || b3=='x') && (b5=='X' || b5=='x') && (b7=='X' || b7=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b2bt.disabled = true;
         b8bt.disabled = true5
         b6bt.disabled = true;
@@ -104,7 +104,7 @@ function myfunc(){
         b7bt.style.color = "red";
     }
     else if((b2=='X' || b2=='x') && (b8=='X' || b8=='x') && (b5=='X' || b5=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b7bt.disabled = true;
         b9bt.disabled = true;
         b6bt.disabled = true;
@@ -117,7 +117,7 @@ function myfunc(){
         b5bt.style.color = "red";
     }
     else if((b4=='X' || b4=='x') && (b5=='X' || b5=='x') && (b6=='X' || b6=='x')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b2bt.disabled = true;
         b8bt.disabled = true;
         b9bt.disabled = true;
@@ -131,7 +131,7 @@ function myfunc(){
     }
     //for second player checking winning condition
     else if((b1=='O' || b1=='o') && (b2=='o' || b2=='O') && (b3=='o' || b3=='O')){
-        document.getElementById('Print').innerHTML = "Player O won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b4bt.disabled = true;
         b5bt.disabled = true;
         b6bt.disabled = true;
@@ -144,7 +144,7 @@ function myfunc(){
         b3bt.style.color = "red";
     }
     else if((b1=='O' || b1=='o') && (b4=='O' || b4=='o') && (b7=='O' || b7=='o')){
-        document.getElementById('Print').innerHTML = "Player O won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b2bt.disabled = true;
         b5bt.disabled = true;
         b6bt.disabled = true;
@@ -157,7 +157,7 @@ function myfunc(){
         b7bt.style.color = "red";
     }
     else if((b7=='O' || b7=='o') && (b8=='O' || b8=='o') && (b9=='O' || b9=='o')){
-        document.getElementById('Print').innerHTML = "Player O won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b2bt.disabled = true;
         b5bt.disabled = true;
         b6bt.disabled = true;
@@ -170,7 +170,7 @@ function myfunc(){
         b9bt.style.color = "red";
     }
     else if((b3=='O' || b3=='o') && (b6=='O' || b6=='o') && (b9=='O' || b9=='o')){
-        document.getElementById('Print').innerHTML = "Player O won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b2bt.disabled = true;
         b5bt.disabled = true;
         b7bt.disabled = true;
@@ -184,7 +184,7 @@ function myfunc(){
 
     }
     else if((b1=='o' || b1=='O') && (b5=='o' || b5=='O') && (b9=='o' || b9=='O')){
-        document.getElementById('Print').innerHTML = "Player O won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b2bt.disabled = true;
         b7bt.disabled = true;
         b6bt.disabled = true;
@@ -197,7 +197,7 @@ function myfunc(){
         b9bt.style.color = "red";
     }
     else if((b3=='O' || b3=='o') && (b5=='O' || b5=='o') && (b7=='O' || b7=='o')){
-        document.getElementById('Print').innerHTML = "Player O won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b2bt.disabled = true;
         b8bt.disabled = true;
         b6bt.disabled = true;
@@ -210,7 +210,7 @@ function myfunc(){
         b7bt.style.color = "red";
     }
     else if((b2=='O' || b2=='o') && (b8=='O' || b8=='o') && (b5=='O' || b5=='o')){
-        document.getElementById('Print').innerHTML = "Player X won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b7bt.disabled = true;
         b9bt.disabled = true;
         b6bt.disabled = true;
@@ -223,7 +223,7 @@ function myfunc(){
         b5bt.style.color = "red";
     }
     else if((b4=='O' || b4=='o') && (b5=='O' || b5=='o') && (b6=='O' || b6=='o')){
-        document.getElementById('Print').innerHTML = "Player O won";
+        document.getElementById('Print').innerHTML = "Haha, Player O won, Player X loser";
         b2bt.disabled = true;
         b8bt.disabled = true;
         b9bt.disabled = true;
@@ -244,7 +244,7 @@ function myfunc(){
         (b7 == 'X' || b7 == 'O') && (b8 == 'X' ||
             b8 == 'O') && (b9 == 'X' || b9 == 'O')) {
         document.getElementById('Print')
-            .innerHTML = "Match Tie";
+            .innerHTML = "L players";
     }
     else {
   

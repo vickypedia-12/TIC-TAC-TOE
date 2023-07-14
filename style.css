@@ -37,7 +37,8 @@ p{
     font-size: 24px;
     text-align: center;
     cursor: pointer;
-    
+    color: #ffffff;
+    /* background-color: #090100; */
 }
 .cell:active{
     outline:none;
@@ -91,13 +92,13 @@ p{
     box-sizing: border-box;
     width: 95px;
     height: 40px;
-    border: 2px solid grey;
+    /* border: 2px solid rgb(107, 104, 104); */
     margin-left: auto;
     font-size: 20px;
     border-radius: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: whitesmoke;
-    color: rgb(190, 13, 31);
+    background-color: white;
+    /* color: rgb(190, 13, 31); */
     cursor: pointer;
     margin-left: 47%;
     /* display:flex; */
@@ -112,5 +113,5 @@ p{
 }
 #ins{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
+    /* color: aliceblue; */
 }
