@@ -93,7 +93,7 @@ function myfunc(){
     else if((b3=='X' || b3=='x') && (b5=='X' || b5=='x') && (b7=='X' || b7=='x')){
         document.getElementById('Print').innerHTML = "Haha, Player X won, Player O loser";
         b2bt.disabled = true;
-        b8bt.disabled = true5
+        b8bt.disabled = true;
         b6bt.disabled = true;
         b9bt.disabled = true;
         b1bt.disabled = true;
