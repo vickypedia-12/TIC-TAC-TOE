@@ -1,0 +1,104 @@
+#tank{
+    background: linear-gradient(100deg, #153677, #4e085f );
+}
+h1{
+    /* text-align: center; */
+    color: #f8f3f5;
+    /* background-color: #a01d21; */
+    border-radius: 35px;
+    width: 295px;
+    margin-left:43%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* display: flex; */
+}
+#interact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#row{
+    display: flex;
+    
+}
+.cell{
+    border-radius: 40px;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.cell:active{
+    outline:none;
+}
+
+/* 3*3 grid */
+#b1{
+    border-bottom: 2px solid grey;
+    border-right:2px solid grey;
+}
+#b2{
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+}
+#b3{
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+#b4{
+    border-bottom: 2px solid grey;
+    border-right:2px solid grey;
+    border-top: 2px solid grey;
+}
+#b5{
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+}
+#b6{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+}
+#b7{
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;    
+}
+#b8{
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+#b9{
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+}
+/* reset button */
+#but{
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 2px solid grey;
+    margin-left: auto;
+    font-size: 20px;
+    border-radius: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    color: rgb(190, 13, 31);
+    cursor: pointer;
+    margin-left: 47%;
+    /* display:flex; */
+}
